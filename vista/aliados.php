@@ -1,3 +1,17 @@
+<?php
+session_start();
+if (
+	isset($_SESSION['logueo']) &&
+	(
+		$_SESSION['logueo'] == "mnbvnmguyfntrvn" ||
+		$_SESSION['logueo'] == "mnybdfmuynb"
+	)
+) {
+	$_SESSION['logueo'] = "mnybdfmuynb";
+} else {
+	header('location: ../');
+}
+?>
 <!DOCTYPE html>
 <html>
 

@@ -17,7 +17,7 @@
                 <li><a href="tarjeta_denuncia.php">Denuncias</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><?php echo "<a href='../modelo/salir.php'><span class='glyphicon glyphicon-log-in'></span> Cerrar sesión </a>" ?></li>
+                <li><a href="./sign_out.php"><span class="glyphicon glyphicon-log-in"></span> Sign out</a></li>
             </ul>
         </div>
     </div>
