@@ -1,8 +1,3 @@
-<link rel="stylesheet" type="text/css" href="../librerias/bootstrap/css/bootstrap.css">
-
-<script src="../librerias/bootstrap/js/jquery-3.3.1.min.js"></script>
-<script src="../librerias/bootstrap/js/bootstrap.js"></script>
-<style>
 /* Estilos para el body y elementos de texto */
 body {
   background-color: #000000;
@@ -299,4 +294,3 @@ tbody tr:hover {
 .input-group input:focus {
     box-shadow: inset 0 0 8px rgba(0, 255, 255, 0.5);
 }
-</style>
